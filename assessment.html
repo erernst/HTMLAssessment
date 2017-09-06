@@ -7,29 +7,41 @@
   <body>
     <h2>TEXT</h2>
     <p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <blockquote><p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></blockquote>
     <p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <h2>TABLE</h2>
   <table>
       <tr>
-        <th colspan="2">Table Header</th>
-        <th>Table Header</th>
+        <th colspan="1">Team Name</th>
+        <th colspan="2">First Half</th>
+        <th colspan="2">Second Half</th>
       </tr>
       <tr>
-        <td>Table cell</td>
-        <td>Table cell</td>
-        <td>Table cell</td>
+        <td></td>
+        <td>Q1</td>
+        <td>Q2</td>
+        <td>Q3</td>
+        <td>Q4</td>
       </tr>
       <tr>
-        <td>Table cell</td>
-        <td>Table cell</td>
-        <td>Table cell</td>
+        <td>Denver</td>
+        <td>7</td>
+        <td>3</td>
+        <td>0</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>Chicago</td>
+        <td>3</td>
+        <td>3</td>
+        <td>0</td>
+        <td>7</td>
       </tr>
     </table>
     <section>
   <h2>LIST</h2>
   <ul>
-    <li>Denver Broncos</li>
+    <li><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Denver_Broncos_logo.svg/1280px-Denver_Broncos_logo.svg.png" width="100" height="57" alt="Broncos Logo"><br><a href="http://www.denverbroncos.com">Denver Broncos</a></li>
       <ul>
         <li>Coach: Gary Kubiak</li>
         <li>QB</li>
@@ -41,9 +53,10 @@
       </ul>
   </ul>
   <ul>
-    <li>Chicago Bears</li>
+
+    <li><img src="http://content.sportslogos.net/logos/7/169/full/354.png" width="100" height="82" alt="Bears Logo"><br><a href="http://www.chicagobears.com/">Chicago Bears</a></li>
       <ul>
-        <li>Coach: Gary Kubiak</li>
+        <li>Coach: John Fox</li>
         <li>QB</li>
         <ol>
           <li>Jay Cutler</li>
@@ -57,17 +70,26 @@
   <form>
     First: <input type="text" name="firstname">
     Last: <input type="text" name="lastname">
+    <br>
     Favorite Sport:
     <select>
         <option value="football">Football</option>
         <option value="lacrosse">Lacrosse</option>
         <option value="Basketball">Basketball</option>
     </select>
-    <input type="checkbox" name="personally" value="Coached">
-    <input type="checkbox" name="personally" value="Played">
-    <input type="checkbox" name="personally" value="Attended">
-    <input type="checkbox" name="personally" value="Bet On">
-
+    <br>
+    I have:
+    <input type="checkbox" name="personally" value="Coached"> Coached
+    <input type="checkbox" name="personally" value="Played"> Played
+    <input type="checkbox" name="personally" value="Attended"> Attended
+    <input type="checkbox" name="personally" value="Bet On"> Bet On
+    <br>
+    For this sport I prefer the:
+    <input type="radio" name="prefer" value="Amateur"> Amateur
+    <input type="radio" name="prefer" value="College"> College
+    <input type="radio" name="prefer" value="College"> Professional
+    <br>
+    <input type="submit">
 
 </form>
 </section>
